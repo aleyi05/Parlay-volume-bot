@@ -1,0 +1,22 @@
+{
+  "name": "eth-bot",
+  "version": "1.0.0",
+  "description": "A bot for trading on Ethereum using Uniswap.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node start.js",
+    "bot": "node bot.js",
+    "end": "node end.js"
+  },
+  "dependencies": {
+    "cli-table3": "0.6.2",
+    "dotenv": "16.0.3",
+    "ethers": "^5.7.2",
+    "moralis": "^2.26.7",
+    "node-telegram-bot-api": "^0.66.0",
+    "web3": "1.8.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
